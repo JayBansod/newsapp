@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 export class NewsItem extends Component {
   render() {
-    let { title, description, urlToImage, newsUrl } = this.props;
+    let { title, description, urlToImage, newsUrl, author, date } = this.props;
     return (
       <>
         <div className="card">
@@ -10,6 +10,11 @@ export class NewsItem extends Component {
           <div className="card-body">
             <h5 className="card-title">{title}...</h5>
             <p className="card-text">{description}</p>
+            <p className="card-text">
+              <small className="text-body-secondary">
+                By {author == null ? "Unknown" : author} on {date}
+              </small>
+            </p>
             <a
               href={newsUrl}
               target="_blank"

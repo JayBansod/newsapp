@@ -97,6 +97,8 @@ export class News extends Component {
                         : "https://sportshub.cbsistatic.com/i/r/2023/04/18/5d5251be-8322-4bcb-b7ec-3556386924e8/thumbnail/1200x675/114cc62de16a9f98b4977705357b0039/levis.jpg"
                     }
                     newsUrl={element.url}
+                    author={element.author}
+                    date={element.publishedAt.slice(0, 10)}
                   />
                 </div>
               );
