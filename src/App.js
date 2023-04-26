@@ -12,6 +12,10 @@ export default class App extends Component {
         <NavBar />
         <Routes>
           <Route
+            path="/News/"
+            element={<News pageSixe={6} country="in" category="general" />}
+          />
+          <Route
             path="/"
             element={<News pageSixe={6} country="in" category="general" />}
           />
