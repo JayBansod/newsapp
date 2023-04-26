@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { a } from "react-router-dom";
 
 // import PropTypes from "prop-types";
 
@@ -29,74 +28,74 @@ export class NavBar extends Component {
               className="collapse navbar-collapse"
               id="navbarSupportedContent"
             >
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item">
-                  <a className="nav-a active" aria-current="page" href="/">
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li className="nav-item mx-3">
+                  <a
+                    className="nav-a active text-decoration-none"
+                    aria-current="page"
+                    href="/"
+                  >
                     Home
                   </a>
                 </li>
-                {/* <li className="nav-item">
-                  <a className="nav-a" to="/">
-                    About us
-                  </a>
-                </li> */}
-                <li className="nav-item">
+
+                <li className="nav-item mx-3">
                   <a
-                    className="nav-a active"
+                    className="nav-a active text-decoration-none"
                     aria-current="page"
                     href="/business"
                   >
                     Business
                   </a>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item mx-3">
                   <a
-                    className="nav-a active"
+                    className="nav-a active text-decoration-none"
                     aria-current="page"
-                    to="/entertainment"
+                    href="/entertainment"
                   >
                     Entertainment
                   </a>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item mx-3">
                   <a
-                    className="nav-a active"
+                    className="nav-a active text-decoration-none"
                     aria-current="page"
                     href="/general"
                   >
                     General
                   </a>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item mx-3">
                   <a
-                    className="nav-a active"
+                    className="nav-a active text-decoration-none"
                     aria-current="page"
                     href="/health"
                   >
                     Health
                   </a>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item mx-3">
                   <a
-                    className="nav-a active"
+                    className="nav-a active text-decoration-none"
                     aria-current="page"
                     href="/science"
                   >
                     Science
                   </a>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item mx-3">
                   <a
-                    className="nav-a active"
+                    className="nav-a active text-decoration-none"
                     aria-current="page"
                     href="/sports"
                   >
                     Sports
                   </a>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item mx-3">
                   <a
-                    className="nav-a active"
+                    className="nav-a active text-decoration-none"
                     aria-current="page"
                     href="/technology"
                   >
