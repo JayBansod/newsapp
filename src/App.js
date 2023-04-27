@@ -9,6 +9,7 @@ export default class App extends Component {
   render() {
     return (
       <>
+        <h1>jsjcc</h1>
         <NavBar />
         <News pageSixe={6} country="in" category="general" />
         <Routes>
